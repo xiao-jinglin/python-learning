@@ -1,0 +1,5 @@
+#BMI =　体重　/ 身長 ** 2
+user_weight = float(input("体重(kg)を入力してください: "))
+user_height = float(input("身長(m)を入力してください: "))
+user_BMI = user_weight / user_height ** 2
+print("あなたのBMIは" + str(user_BMI) + "です")
